@@ -8,6 +8,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container{
     width:  1200px;
     margin: auto;
@@ -80,4 +84,89 @@ nav ul li a{
     border-radius: 10px;
     border: none;
     margin-top: 43px;
+}
+
+
+#events{
+    padding: 100px 0;
+    text-align: center;
+}
+#events h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+#events span{
+    width: 100px;
+    height: 4px;
+    background: red;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.col-1-2{}
+.card img{
+    height: 300px;
+    margin-bottom: 10px;
+    /* box-shadow: rgba(0, 0, 0, 6.15) 2.4px 2.4px 2px; */
+    box-shadow: 10px 9px 10px #00000085;
+    border-radius: 10px;
+}
+.card h3{
+    font-size: 33px;
+}
+.card p{
+    margin: 10px 0;
+}
+.card button{
+    padding: 10px;
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 15px;
+}
+
+#explore{
+    padding: 200px 0;
+    background-image: url('../images/father.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0 0 0 / 63%);
+    background-position: center;
+    background-blend-mode: multiply;
+    margin-bottom: 500px;
+    color: white;
+    background-attachment: fixed;
+}
+
+.explore{
+    display: flex;
+    justify-content: end;
+}
+.explore .col-1-2{
+    width: 50%;
+}
+
+
+.explore .col-1-2 h2{
+    font-size: 49px;
+    margin: 0 0 20px 0;
+}
+.explore .col-1-2 span{
+    width: 100px;
+    height: 4px;
+    background: red;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.explore .col-1-2 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.explore .col-1-2 button{
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 20px 0;
 }
